@@ -65,7 +65,6 @@ export default function registerTools(server: McpServer) {
         "ui://widget/mermaid.html",
         {},
         async (req) => {
-            console.log("resource");
             return {
                 contents: [
                     {
