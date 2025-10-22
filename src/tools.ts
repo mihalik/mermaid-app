@@ -46,7 +46,6 @@ export default function registerTools(server: McpServer) {
             }
         },
         async ({ diagram }) => {
-            console.log(diagram);
             // Ideally this would validate the mermaid diagram so that we could return
             // valid error messages to the model rather than displaying an error in the
             // UI.  Unfortunately, mermaid is really only designed to run in the browser
